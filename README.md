@@ -22,7 +22,7 @@ The Feature-based Warping Toolkit is a Python-based framework designed for time 
 ## Installation
 
 ### Prerequisites
-Ensure you have Python 3.5+ installed on your system.
+Ensure you have Python 3.5+ installed.
 
 ### Steps
 
@@ -37,20 +37,6 @@ Ensure you have Python 3.5+ installed on your system.
 To preprocess, warp, save, and visualize seismic data:
 
 python test.py
-
-## Project Structure
-SeismicToolkit/
-├── README.md                     # Project documentation
-├── LICENSE                       # License file
-├── requirements.txt              # Dependencies
-├── config.py                     # Parameter configurations
-├── data_input_preprocessing.py   # Preprocessing functions
-├── signal_processing_warping.py  # Signal processing and warping
-├── post_processing_visualization.py # Post-processing and visualization
-├── test.py                       # Main script for workflow
-└── data/
-    ├── input/                    # Input SEG-Y files
-    └── output/                   # Output SEG-Y files
 
 ## Configuration
 All configurable parameters are defined in the config.py file. Below are some key parameters:
@@ -87,4 +73,4 @@ Push to the branch: git push origin feature-name.
 Open a pull request.
 
 ## License
-This project is licensed under the Apache License.
+This project is licensed under the MIT License.
