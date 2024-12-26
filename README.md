@@ -42,14 +42,21 @@ python test.py
 All configurable parameters are defined in the config.py file. Below are some key parameters:
 
 Paths:
+
 BASE_PATH: Path to the baseline SEG-Y file.
+
 MONITOR_PATHS: List of paths to the monitor SEG-Y files.
+
 OUTPUT_STRAIN_PATH: Path to save the time strain SEG-Y output.
+
 OUTPUT_SHIFT_PATH: Path to save the shifts SEG-Y output.
 
 Processing Parameters:
+
 STRAIN_LIMIT: Maximum allowable time strain.
+
 UPSAMPLE_FACTOR: Factor for upsampling signals.
+
 WINDOW_SIZE: Size of the moving average filter for smoothing.
 
 ## Dependencies
