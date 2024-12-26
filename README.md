@@ -34,7 +34,7 @@ Ensure you have Python 3.5+ installed.
 
 ## Quick Start
 1. Running the Workflow
-To preprocess, warp, save, and visualize seismic data:
+To preprocess, warp, save, and visualize results:
 
 python test.py
 
@@ -43,20 +43,15 @@ All configurable parameters are defined in the config.py file. Below are some ke
 
 Paths:
 
-BASE_PATH: Path to the baseline SEG-Y file.
-
-MONITOR_PATHS: List of paths to the monitor SEG-Y files.
-
-OUTPUT_STRAIN_PATH: Path to save the time strain SEG-Y output.
-
+BASE_PATH: Path to the baseline SEG-Y file.\
+MONITOR_PATHS: List of paths to the monitor SEG-Y files.\
+OUTPUT_STRAIN_PATH: Path to save the time strain SEG-Y output.\
 OUTPUT_SHIFT_PATH: Path to save the shifts SEG-Y output.
 
 Processing Parameters:
 
-STRAIN_LIMIT: Maximum allowable time strain.
-
-UPSAMPLE_FACTOR: Factor for upsampling signals.
-
+STRAIN_LIMIT: Maximum allowable time strain.\
+UPSAMPLE_FACTOR: Factor for upsampling signals.\
 WINDOW_SIZE: Size of the moving average filter for smoothing.
 
 ## Dependencies
@@ -68,16 +63,10 @@ segysak\
 numba\
 mayavi\
 tqdm\
-scipy\
+scipy
 
 ## Contributing
-We welcome contributions! To contribute:
-
-Fork the repository.
-Create a feature branch: git checkout -b feature-name.
-Commit your changes: git commit -m "Description of changes".
-Push to the branch: git push origin feature-name.
-Open a pull request.
+We welcome contributions!
 
 ## License
 This project is licensed under the MIT License.
