@@ -41,7 +41,7 @@ python test.py
 ## Configuration
 All configurable parameters are defined in the config.py file. Below are some key parameters:
 
-Paths:
+File paths:
 
 BASE_PATH: Path to the baseline SEG-Y file.\
 MONITOR_PATHS: List of paths to the monitor SEG-Y files.\
