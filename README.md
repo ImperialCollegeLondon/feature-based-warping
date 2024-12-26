@@ -62,13 +62,13 @@ WINDOW_SIZE: Size of the moving average filter for smoothing.
 ## Dependencies
 The toolkit requires the following libraries:
 
-numpy
-matplotlib
-segysak
-numba
-mayavi
-tqdm
-scipy
+numpy\
+matplotlib\
+segysak\
+numba\
+mayavi\
+tqdm\
+scipy\
 
 ## Contributing
 We welcome contributions! To contribute:
